@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>open.png</file>
+        <file>paste.png</file>
+        <file>cut.png</file>
+        <file>copy.png</file>
+        <file>exit.png</file>
+        <file>save.png</file>
+        <file>LessText.png</file>
+        <file>new.png</file>
+        <file>redo.png</file>
+        <file>saveAs.png</file>
+        <file>undo.png</file>
+        <file>run.png</file>
+    </qresource>
+</RCC>

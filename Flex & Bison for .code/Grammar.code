@@ -1,0 +1,28 @@
+start procedure(){
+	code.int num=0;
+	code.print("Enter a number ");
+	code.scan(num);
+
+	code.print("calculating if a number is prime");
+	cont=0;
+	code.for(code.int i = 0; i <= num; i++){
+		code.int k = num%i  / 9;
+		code.if(k == 0){
+			cont++;
+		}
+	}
+	code.if(cont == 2){
+		code.print("Is prime");
+	}code.else{
+		code.print("Is not prime");
+	}
+
+	code.print("Now we gonna show the firts 100 numbers");
+	cont=0;
+	code.do{
+		cont++;
+		code.print("The new value is "+cont);
+	}code.while(cont<100);
+	
+	code.print("End of program");
+}
